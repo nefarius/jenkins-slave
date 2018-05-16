@@ -16,7 +16,7 @@ apt-get install -y oracle-java8-installer oracle-java8-set-default
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 ENV PATH $JAVA_HOME/bin:$PATH
-ENV JENKINS_SWARM_VERSION 3.3
+ENV JENKINS_SWARM_VERSION 3.12
 ENV HOME /home/jenkins-slave
 
 
