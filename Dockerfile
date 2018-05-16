@@ -2,7 +2,6 @@ FROM ubuntu:xenial
 
 LABEL maintainer="Chris Mosetick <cmosetick@gmail.com>"
 
-ARG github_token
 
 RUN \
 sed -i 's@http://archive.ubuntu.com/ubuntu/@http://ubuntu.osuosl.org/ubuntu@g' /etc/apt/sources.list && \
